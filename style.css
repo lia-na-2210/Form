@@ -9,6 +9,7 @@ body {
     .logo {
         width: 50%;
         min-height: 620px;
+        min-width: 30%;
     }
 }
 
@@ -16,6 +17,11 @@ body {
     .content {
         width: 50%;
     }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .content {
@@ -31,6 +37,11 @@ body {
 
 .logo {
     border: 1px solid black;
+    background-image: url(pics/chris-ried-ieic5Tq8YMk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+
 }
 
 .form-side {
