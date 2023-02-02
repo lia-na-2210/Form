@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <div class="logo">
+            <img src="/pics/chris-ried-ieic5Tq8YMk-unsplash.jpg" alt="code on a computer">
+        </div>
+        <div class="form-side">
+            <p id="message">You know you want to hire me a coder. Let me handle are the problems (not the super hard ones) for you. I will make the best code ever.</p>
+            <div class="form-area">
+                <h1>Let's do this!</h1>
+                <form action="go">
+                    <p>
+                        <label for="first_name">
+                            <span>First Name: </span>
+                        </label>
+                        <input type="text" required id="first_name" name="name">
+                    </p>
+                    <p>
+                        <label for="last_name">
+                            <span>Last Name: </span>
+                        </label>
+                        <input type="text" required id="last_name" name="last">
+                    </p>
+                    <p>
+                        <label for="email">
+                            <span>Email: </span>
+                        </label>
+                        <input type="email" required id="email" name="mail">
+                    </p>
+                    <p>
+                        <label for="phone_number">
+                            <span>Phone Number: </span>
+                        </label>
+                        <input type="tel" required id="phone_number" name="tel">
+                    </p>
+                    <p>
+                        <label for="pwd">
+                            <span>Password: </span>
+                        </label>
+                        <input type="password" required id="pwd" name="password">
+                    </p>
+                    <p>
+                        <label for="pwd2">
+                            <span>Confirm Password: </span>
+                        </label>
+                        <input type="password" required id="pwd2" name="password">
+                    </p>
+                </form>
+            </div>
+            <div class="btn">
+                <button type="submit">Create Account</button>
+            </div>
+            <div>
+                <p>Already have an account? Log in</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
