@@ -29,7 +29,8 @@ body {
     background-color: whitesmoke;
 
     width: 100%;
-    max-width: 1200px;
+    max-height: auto;
+    max-width: 1600px;
 }
 
 .logo {
@@ -89,4 +90,21 @@ a{
     color: orangered;
     text-decoration: none;
 }
+
+input {
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 3px;
+    outline: none;
+}
+
+input:focus {
+    box-shadow: 3px 3px #2675eb79;
+}
+
+input:invalid:after {
+    box-shadow: none;
+    border: 1px solid red;
+}
+
+
 
