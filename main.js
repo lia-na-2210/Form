@@ -7,9 +7,9 @@ submitbutton.addEventListener('click', ()=> {
     let value2 = passwordConfirm.value;
 
     if (value !== value2) {
-        console.log('passwords don match')
+        console.log('Password does not match.')
     } else {
-        console.log('yipi')
+        console.log('Password created')
     }
 
 })

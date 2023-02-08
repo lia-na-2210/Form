@@ -74,6 +74,10 @@ section {
     margin-bottom: 30px;
 }
 
+label {
+    display: block;
+}
+
 button {
     padding: 14px 18px;
     background-color: rgb(126, 53, 221);
